@@ -1,0 +1,82 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Wed Jun 19 13:46:24 2019
+| Host         : stu954e0b running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Top_control_sets_placed.rpt
+| Design       : Top
+| Device       : xc7k325t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    15 |
+| Unused register locations in slices containing registers |    24 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      3 |            2 |
+|      9 |            1 |
+|    16+ |           11 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              71 |           40 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               9 |            5 |
+| Yes          | No                    | No                     |             512 |          255 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+-----------------+------------------+------------------+----------------+
+|   Clock Signal   |  Enable Signal  | Set/Reset Signal | Slice Load Count | Bel Load Count |
++------------------+-----------------+------------------+------------------+----------------+
+|  Clk_OBUF_BUFG   |                 |                  |                1 |              1 |
+|  u2/PC_reg[5]    |                 |                  |                2 |              3 |
+|  Clkin_OBUF_BUFG |                 |                  |                2 |              3 |
+|  Clk_OBUF_BUFG   |                 | LED_OBUF[6]      |                5 |              9 |
+| ~Clk_OBUF_BUFG   |                 |                  |                8 |             32 |
+| ~n_0_506_BUFG    |                 |                  |               12 |             32 |
+|  n_1_385_BUFG    |                 |                  |               23 |             32 |
+| ~Clk_OBUF_BUFG   | u2/PC_reg[3]_6  |                  |               34 |             64 |
+| ~Clk_OBUF_BUFG   | u2/PC_reg[3]_9  |                  |               25 |             64 |
+| ~Clk_OBUF_BUFG   | u2/PC_reg[3]_7  |                  |               30 |             64 |
+| ~Clk_OBUF_BUFG   | u2/PC_reg[3]_8  |                  |               33 |             64 |
+| ~Clk_OBUF_BUFG   | u2/PC_reg[3]_10 |                  |               43 |             64 |
+| ~Clk_OBUF_BUFG   | u2/PC_reg[3]_11 |                  |               31 |             64 |
+| ~Clk_OBUF_BUFG   | u2/PC_reg[3]_5  |                  |               29 |             64 |
+| ~Clk_OBUF_BUFG   | u2/PC_reg[3]_4  |                  |               30 |             64 |
++------------------+-----------------+------------------+------------------+----------------+
+
+
