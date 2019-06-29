@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="assembly_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="assembly" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="909090911fs"></ZoomEndTime>
+      <Cursor1Time time="377273000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="243"></NameColumnWidth>
+      <ValueColumnWidth column_width="132"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="55" />
+   <wvobject fp_name="/assembly/u/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S1_PC_ADD4" type="array">
+      <obj_property name="ElementShortName">S1_PC_ADD4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S1_PC_ADD4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S1_INST" type="array">
+      <obj_property name="ElementShortName">S1_INST[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S1_INST[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S2_REG_WRITE" type="logic">
+      <obj_property name="ElementShortName">S2_REG_WRITE</obj_property>
+      <obj_property name="ObjectShortName">S2_REG_WRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S2_MEM_TO_REG" type="logic">
+      <obj_property name="ElementShortName">S2_MEM_TO_REG</obj_property>
+      <obj_property name="ObjectShortName">S2_MEM_TO_REG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S2_BRANCH" type="logic">
+      <obj_property name="ElementShortName">S2_BRANCH</obj_property>
+      <obj_property name="ObjectShortName">S2_BRANCH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S2_MEM_READ" type="logic">
+      <obj_property name="ElementShortName">S2_MEM_READ</obj_property>
+      <obj_property name="ObjectShortName">S2_MEM_READ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S2_MEM_WRITE" type="logic">
+      <obj_property name="ElementShortName">S2_MEM_WRITE</obj_property>
+      <obj_property name="ObjectShortName">S2_MEM_WRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S2_REG_DST" type="logic">
+      <obj_property name="ElementShortName">S2_REG_DST</obj_property>
+      <obj_property name="ObjectShortName">S2_REG_DST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S2_ALU_SRC" type="logic">
+      <obj_property name="ElementShortName">S2_ALU_SRC</obj_property>
+      <obj_property name="ObjectShortName">S2_ALU_SRC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S2_ALU_OP" type="array">
+      <obj_property name="ElementShortName">S2_ALU_OP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">S2_ALU_OP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S2_PC_ADD4" type="array">
+      <obj_property name="ElementShortName">S2_PC_ADD4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S2_PC_ADD4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S2_READ_DATA1" type="array">
+      <obj_property name="ElementShortName">S2_READ_DATA1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S2_READ_DATA1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S2_READ_DATA2" type="array">
+      <obj_property name="ElementShortName">S2_READ_DATA2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S2_READ_DATA2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S2_SIGNEXT_IMME" type="array">
+      <obj_property name="ElementShortName">S2_SIGNEXT_IMME[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S2_SIGNEXT_IMME[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S2_REG_ADDR_HIGH" type="array">
+      <obj_property name="ElementShortName">S2_REG_ADDR_HIGH[5:0]</obj_property>
+      <obj_property name="ObjectShortName">S2_REG_ADDR_HIGH[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S2_REG_ADDR_LOW" type="array">
+      <obj_property name="ElementShortName">S2_REG_ADDR_LOW[5:0]</obj_property>
+      <obj_property name="ObjectShortName">S2_REG_ADDR_LOW[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S3_REG_WRITE" type="logic">
+      <obj_property name="ElementShortName">S3_REG_WRITE</obj_property>
+      <obj_property name="ObjectShortName">S3_REG_WRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S3_MEM_TO_REG" type="logic">
+      <obj_property name="ElementShortName">S3_MEM_TO_REG</obj_property>
+      <obj_property name="ObjectShortName">S3_MEM_TO_REG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S3_BRANCH" type="logic">
+      <obj_property name="ElementShortName">S3_BRANCH</obj_property>
+      <obj_property name="ObjectShortName">S3_BRANCH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S3_MEM_READ" type="logic">
+      <obj_property name="ElementShortName">S3_MEM_READ</obj_property>
+      <obj_property name="ObjectShortName">S3_MEM_READ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S3_MEM_WRITE" type="logic">
+      <obj_property name="ElementShortName">S3_MEM_WRITE</obj_property>
+      <obj_property name="ObjectShortName">S3_MEM_WRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S3_BRANCH_ADDR" type="array">
+      <obj_property name="ElementShortName">S3_BRANCH_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S3_BRANCH_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S3_ALU_RES" type="array">
+      <obj_property name="ElementShortName">S3_ALU_RES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S3_ALU_RES[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S3_ALU_ZERO" type="array">
+      <obj_property name="ElementShortName">S3_ALU_ZERO[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S3_ALU_ZERO[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S3_MEM_WRITE_DATA" type="array">
+      <obj_property name="ElementShortName">S3_MEM_WRITE_DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S3_MEM_WRITE_DATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S3_REG_ADDR" type="array">
+      <obj_property name="ElementShortName">S3_REG_ADDR[5:0]</obj_property>
+      <obj_property name="ObjectShortName">S3_REG_ADDR[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S4_REG_WRITE" type="logic">
+      <obj_property name="ElementShortName">S4_REG_WRITE</obj_property>
+      <obj_property name="ObjectShortName">S4_REG_WRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S4_MEM_TO_REG" type="logic">
+      <obj_property name="ElementShortName">S4_MEM_TO_REG</obj_property>
+      <obj_property name="ObjectShortName">S4_MEM_TO_REG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S4_MEM_READ_DATA" type="array">
+      <obj_property name="ElementShortName">S4_MEM_READ_DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S4_MEM_READ_DATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S4_ALU_RES" type="array">
+      <obj_property name="ElementShortName">S4_ALU_RES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S4_ALU_RES[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/S4_REG_ADDR" type="array">
+      <obj_property name="ElementShortName">S4_REG_ADDR[5:0]</obj_property>
+      <obj_property name="ObjectShortName">S4_REG_ADDR[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/PC_SRC" type="logic">
+      <obj_property name="ElementShortName">PC_SRC</obj_property>
+      <obj_property name="ObjectShortName">PC_SRC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/IF_INST" type="array">
+      <obj_property name="ElementShortName">IF_INST[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IF_INST[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/ID_REG_DST" type="logic">
+      <obj_property name="ElementShortName">ID_REG_DST</obj_property>
+      <obj_property name="ObjectShortName">ID_REG_DST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/ID_ALU_SRC" type="logic">
+      <obj_property name="ElementShortName">ID_ALU_SRC</obj_property>
+      <obj_property name="ObjectShortName">ID_ALU_SRC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/ID_MEM_TO_REG" type="logic">
+      <obj_property name="ElementShortName">ID_MEM_TO_REG</obj_property>
+      <obj_property name="ObjectShortName">ID_MEM_TO_REG</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/ID_REG_WRITE" type="logic">
+      <obj_property name="ElementShortName">ID_REG_WRITE</obj_property>
+      <obj_property name="ObjectShortName">ID_REG_WRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/ID_MEM_READ" type="logic">
+      <obj_property name="ElementShortName">ID_MEM_READ</obj_property>
+      <obj_property name="ObjectShortName">ID_MEM_READ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/ID_MEM_WRITE" type="logic">
+      <obj_property name="ElementShortName">ID_MEM_WRITE</obj_property>
+      <obj_property name="ObjectShortName">ID_MEM_WRITE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/ID_BRANCH" type="logic">
+      <obj_property name="ElementShortName">ID_BRANCH</obj_property>
+      <obj_property name="ObjectShortName">ID_BRANCH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/ID_ALU_OP" type="array">
+      <obj_property name="ElementShortName">ID_ALU_OP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_ALU_OP[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/ID_READ_DATA1" type="array">
+      <obj_property name="ElementShortName">ID_READ_DATA1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_READ_DATA1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/ID_READ_DATA2" type="array">
+      <obj_property name="ElementShortName">ID_READ_DATA2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_READ_DATA2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/ID_SIGNEXT_IMME" type="array">
+      <obj_property name="ElementShortName">ID_SIGNEXT_IMME[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_SIGNEXT_IMME[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/JUMP" type="logic">
+      <obj_property name="ElementShortName">JUMP</obj_property>
+      <obj_property name="ObjectShortName">JUMP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/MEM_MEM_READ_DATA" type="array">
+      <obj_property name="ElementShortName">MEM_MEM_READ_DATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_MEM_READ_DATA[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/EX_ALU_CTR" type="array">
+      <obj_property name="ElementShortName">EX_ALU_CTR[3:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_ALU_CTR[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/EX_ALU_ZERO" type="logic">
+      <obj_property name="ElementShortName">EX_ALU_ZERO</obj_property>
+      <obj_property name="ObjectShortName">EX_ALU_ZERO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/EX_ALU_RES" type="array">
+      <obj_property name="ElementShortName">EX_ALU_RES[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_ALU_RES[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/u0/regFile" type="array">
+      <obj_property name="ElementShortName">regFile[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">regFile[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/u5/memFile" type="array">
+      <obj_property name="ElementShortName">memFile[0:63][31:0]</obj_property>
+      <obj_property name="ObjectShortName">memFile[0:63][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/u/PC_WRITE" type="logic">
+      <obj_property name="ElementShortName">PC_WRITE</obj_property>
+      <obj_property name="ObjectShortName">PC_WRITE</obj_property>
+   </wvobject>
+</wave_config>

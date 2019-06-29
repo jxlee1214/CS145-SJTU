@@ -1,0 +1,42 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jun 24 09:54:05 2019
+# Process ID: 2772
+# Current directory: D:/cs145/对的/lab0601
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11048 D:\cs145\对的\lab0601\lab5.xpr
+# Log file: D:/cs145/对的/lab0601/vivado.log
+# Journal file: D:/cs145/对的/lab0601\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/cs145/对的/lab0601/lab5.xpr
+launch_simulation
+open_wave_config D:/cs145/对的/lab0601/assembly_behav.wcfg
+source assembly.tcl
+close_sim
+launch_simulation
+open_wave_config D:/cs145/对的/lab0601/assembly_behav.wcfg
+source assembly.tcl
+create_project project_1 C:/Users/jxlee/Desktop/project_1 -part xc7k325tffg676-2
+add_files -norecurse E:/计算机系统结构实验/lab03/lab03.srcs/sources_1/new/Ctr.v
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse E:/计算机系统结构实验/lab03/lab03.srcs/sim_1/new/Ctr_tb.v
+update_compile_order -fileset sim_1
+launch_simulation
+source Ctr_tb.tcl
+update_compile_order -fileset sim_1
+save_wave_config {C:/Users/jxlee/Desktop/project_1/Ctr_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/jxlee/Desktop/project_1/Ctr_tb_behav.wcfg
+set_property xsim.view C:/Users/jxlee/Desktop/project_1/Ctr_tb_behav.wcfg [get_filesets sim_1]
+close_sim
+close_project
+close_sim
+launch_simulation
+open_wave_config D:/cs145/对的/lab0601/assembly_behav.wcfg
+source assembly.tcl
+close_sim
+launch_simulation
+open_wave_config D:/cs145/对的/lab0601/assembly_behav.wcfg
+source assembly.tcl

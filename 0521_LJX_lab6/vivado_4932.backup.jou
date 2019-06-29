@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jun 19 08:05:25 2019
+# Process ID: 4932
+# Current directory: E:/lab0601
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1516 E:\lab0601\lab5.xpr
+# Log file: E:/lab0601/vivado.log
+# Journal file: E:/lab0601\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/lab0601/lab5.xpr
+launch_simulation
+open_wave_config E:/lab0601/assembly_behav.wcfg
+source assembly.tcl
+close_sim
+launch_simulation
+open_wave_config E:/lab0601/assembly_behav.wcfg
+source assembly.tcl
+close_sim
