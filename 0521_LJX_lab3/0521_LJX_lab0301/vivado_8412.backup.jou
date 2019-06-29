@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed May 29 08:12:21 2019
+# Process ID: 8412
+# Current directory: E:/lab0301
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8692 E:\lab0301\lab0301.xpr
+# Log file: E:/lab0301/vivado.log
+# Journal file: E:/lab0301\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/lab0301/lab0301.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config E:/lab0301/Ctr_tb_behav.wcfg
+source Ctr_tb.tcl
+close_sim
