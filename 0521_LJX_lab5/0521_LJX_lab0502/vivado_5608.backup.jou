@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jun 18 19:07:30 2019
+# Process ID: 5608
+# Current directory: D:/cs145/lab0502
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5732 D:\cs145\lab0502\lab5.xpr
+# Log file: D:/cs145/lab0502/vivado.log
+# Journal file: D:/cs145/lab0502\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/cs145/lab0502/lab5.xpr
+file mkdir D:/cs145/lab0502/lab5.srcs/constrs_1
+file mkdir D:/cs145/lab0502/lab5.srcs/constrs_1/new
+close [ open D:/cs145/lab0502/lab5.srcs/constrs_1/new/lab05_xdc.xdc w ]
+add_files -fileset constrs_1 D:/cs145/lab0502/lab5.srcs/constrs_1/new/lab05_xdc.xdc
+launch_simulation
+open_wave_config D:/cs145/lab0502/assembly_behav.wcfg
+source assembly.tcl
+close [ open D:/cs145/lab0502/lab5.srcs/sources_1/new/time_divider.v w ]
+add_files D:/cs145/lab0502/lab5.srcs/sources_1/new/time_divider.v
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config D:/cs145/lab0502/assembly_behav.wcfg
+source assembly.tcl
+current_wave_config {assembly_behav.wcfg}
+add_wave {{/assembly}} 
+save_wave_config {D:/cs145/lab0502/assembly_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config D:/cs145/lab0502/assembly_behav.wcfg
+source assembly.tcl
+close_sim
+launch_simulation
+open_wave_config D:/cs145/lab0502/assembly_behav.wcfg
+source assembly.tcl
+close_sim
+launch_simulation
+open_wave_config D:/cs145/lab0502/assembly_behav.wcfg
+source assembly.tcl
+close_sim
+launch_simulation
+open_wave_config D:/cs145/lab0502/assembly_behav.wcfg
+source assembly.tcl
+close_sim
+launch_simulation
+open_wave_config D:/cs145/lab0502/assembly_behav.wcfg
+source assembly.tcl
+close_sim
+launch_simulation
+open_wave_config D:/cs145/lab0502/assembly_behav.wcfg
+source assembly.tcl
+close_sim

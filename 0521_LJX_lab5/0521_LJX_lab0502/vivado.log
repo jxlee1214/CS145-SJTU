@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jun 24 18:22:34 2019
+# Process ID: 2300
+# Current directory: D:/cs145/对的/lab0502
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2392 D:\cs145\对的\lab0502\lab5.xpr
+# Log file: D:/cs145/对的/lab0502/vivado.log
+# Journal file: D:/cs145/对的/lab0502\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/cs145/对的/lab0502/lab5.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 722.785 ; gain = 137.164

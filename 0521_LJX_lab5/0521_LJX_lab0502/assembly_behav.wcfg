@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="assembly_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="assembly" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1065865286fs"></ZoomEndTime>
+      <Cursor1Time time="37181000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="243"></NameColumnWidth>
+      <ValueColumnWidth column_width="142"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="14" />
+   <wvobject fp_name="/assembly/Clkin" type="logic">
+      <obj_property name="ElementShortName">Clkin</obj_property>
+      <obj_property name="ObjectShortName">Clkin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/regnum" type="array">
+      <obj_property name="ElementShortName">regnum[2:0]</obj_property>
+      <obj_property name="ObjectShortName">regnum[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/LED" type="array">
+      <obj_property name="ElementShortName">LED[7:0]</obj_property>
+      <obj_property name="ObjectShortName">LED[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/R0" type="array">
+      <obj_property name="ElementShortName">R0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/R1" type="array">
+      <obj_property name="ElementShortName">R1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/R2" type="array">
+      <obj_property name="ElementShortName">R2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/R3" type="array">
+      <obj_property name="ElementShortName">R3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/R4" type="array">
+      <obj_property name="ElementShortName">R4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/R5" type="array">
+      <obj_property name="ElementShortName">R5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R5[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/R6" type="array">
+      <obj_property name="ElementShortName">R6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R6[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/R7" type="array">
+      <obj_property name="ElementShortName">R7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">R7[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/assembly/PERIOD" type="array">
+      <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+   </wvobject>
+</wave_config>
