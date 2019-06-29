@@ -1,0 +1,21 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 1369337ea1584077a1a2f6ac373e2f54 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot assembly_behav xil_defaultlib.assembly xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 6 differs from formal bit length 5 for port 'writeReg' [D:/cs145/¶ÔµÄ/lab0601/lab5.srcs/sources_1/new/Top.v:119]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.InstMemory
+Compiling module xil_defaultlib.Ctr
+Compiling module xil_defaultlib.signext
+Compiling module xil_defaultlib.registers
+Compiling module xil_defaultlib.ALUctr
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.dataMemory
+Compiling module xil_defaultlib.Top
+Compiling module xil_defaultlib.assembly
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot assembly_behav
