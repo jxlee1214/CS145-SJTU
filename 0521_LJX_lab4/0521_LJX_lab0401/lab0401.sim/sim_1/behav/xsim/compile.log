@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lab0401/lab0401.srcs/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/lab0401/lab0401.srcs/sim_1/new/registers_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers_tb
